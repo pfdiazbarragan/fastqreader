@@ -83,6 +83,7 @@ int main(int argc,char *argv[])
 			{
 				if(seccion == 2)
 				{
+					printf("SECUENCIA : ");
 					escribir_vector(vector_secuencia);
 					vector_secuencia.clear();
 					vector_secuencia.resize(0);
@@ -99,6 +100,7 @@ int main(int argc,char *argv[])
 						seccion  = 2;
 
 						//escribir anterior seccion
+						printf("CABECERA : ");
 						escribir_vector(vector_cabecera);
 						vector_cabecera.clear();
 						vector_cabecera.resize(0);
