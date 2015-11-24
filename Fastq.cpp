@@ -67,7 +67,7 @@ int main(int argc,char *argv[])
 			
 			if(seccion == 4)	
 			{	
-				escribir_vector(vector_puntuacion);
+				//escribir_vector(vector_puntuacion);
 				vector_puntuacion.clear();
 				vector_puntuacion.resize(0);
 			}
@@ -111,7 +111,7 @@ int main(int argc,char *argv[])
 							seccion = 4;
 							
 							//escribir seccion 3
-							escribir_vector(vector_mas);
+							//escribir_vector(vector_mas);
 							vector_mas.clear();
 							vector_mas.resize(0);
 						}
