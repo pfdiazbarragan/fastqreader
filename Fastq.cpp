@@ -163,7 +163,7 @@ int main(int argc,char *argv[])
 	}
 	
 	
-	escribir_vector(vector_puntuacion);
+	//escribir_vector(vector_puntuacion);
 	
 	if(fclose(fichero)!=0)
 		printf("\n PROBLEMAS AL CERRAR EL FICHERO \n");
